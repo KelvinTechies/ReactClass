@@ -1,0 +1,12 @@
+.checkers{
+    display:flex;
+    gap:1rem;
+    padding:0.8rem;
+    margin-top:1rem;
+}
+
+.checkers p{
+    color:black;
+    font-size:1.2rem;
+    font-weight:900;
+}

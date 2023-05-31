@@ -1,0 +1,108 @@
+.Head{
+    background:url(../../Image/vector5.jpg);
+    background-position:center;
+    background-size:cover;
+    height:30%;
+
+}
+
+.subhead{
+    display:flex;
+    align-items:center;
+    margin-bottom:5rem;
+}
+
+.Head .logo{
+    width:20%;
+    height:3rem;    
+}
+
+.Head .title{
+    display:flex;
+    margin-left:3rem;
+    align-items:center;
+    width:45%;
+    font-size:1.5rem;
+    color:orangered;
+}
+
+.nav .ul{
+    list-style-type: none;
+    flex:1;
+    display:flex;
+    gap:20px;
+}
+
+ul{
+    display:flex;
+    gap:4rem;
+}
+
+.nav li{
+    display:inline;
+    font-size:1.2rem;
+    font-weight:900;
+}
+
+.h1{
+    display:flex;
+    flex-direction:column; 
+    flex:1;   
+    color:black;
+    padding:2rem;
+    line-height:1.5;
+    text-align:justify;
+    margin-left:2rem;
+}
+
+.p{
+    font-size:1rem;
+    font-weight:bold;
+}
+
+.right{
+    flex:1;  
+    
+}
+
+.right .logo-laptop{
+    width:500px;
+    height:500px; 
+    transition:all 2s ease;    
+}
+
+.he{
+    display:flex;
+    flex:1;
+    gap:10rem;
+    
+}
+
+.right .logo{
+    width:400px;
+    height:300px;
+    padding:2rem;
+    
+}
+
+.button-div .btn{
+    background:orangered;
+    color:white;
+    border:none;
+    padding:0.8rem;
+    width:30%;
+    border-radius:10px;
+    font-size:1rem;
+    font-weight:bold;
+    box-shadow:2px 2px 2px grey;
+    margin-top:2rem;
+    transition:all 2s ease;
+}
+
+.button-div .btn:hover{
+    transform:scale(0.9);
+}
+
+.right .logo-laptop:hover{
+    transform:scale(0.9);
+}

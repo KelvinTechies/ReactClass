@@ -1,0 +1,37 @@
+.About{
+    background:rgb(241, 235, 235);
+    padding:5rem;
+}
+
+.abtBx{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.imgbx{
+    display:flex;
+    float: 1px;
+    margin-top:10%
+}
+
+
+.imgbx img{
+    width:500px;
+    height:500px;
+}
+.rightAbt{
+    display:flex;
+    float: 1px;
+    background:white;
+    width:600px;
+    padding:3rem;
+    box-shadow:2px 2px 5px 2px grey;
+    flex-direction:column;
+}
+
+.rightAbt h1{
+    font-size:3rem;
+    font-weight:900;
+    font-family:monospace;
+}

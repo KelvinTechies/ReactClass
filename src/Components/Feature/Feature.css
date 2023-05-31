@@ -1,0 +1,26 @@
+.Feature {
+    /* margin-top: 3rem; */
+    background: url(../../Image/vector8.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 30%;
+    text-align: center;
+}
+
+.featureHead h3 {
+    font-size: 2rem;
+    padding-top:2rem;
+    
+}
+
+/* .imgBx{
+    background:rgb(233, 57, 57);
+    width:25%;
+} */
+
+.imgGallery {
+    padding: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
